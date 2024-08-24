@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(unnamed.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    bottom: 200px;
+}
+
+
+
+.button-container {
+     position: absolute;
+    top: 450px;
+    left: 30%;
+
+}
+
+
+.button-container button {
+font-weight: bold;
+width: 150px;
+height: 40px;
+margin: 10px;
+background:#feefed;
+color:#f75940;
+font-family: Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+font-size: 1em;
+border: 1px solid rgb(202, 158, 116);
+border-radius: 20px;
+cursor: pointer;
+transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.button-container button:hover {
+background-color:#f75940;
+color: #830f0f;
+transform: scale(1.2);
+box-shadow: 0 4px 8px rgba(255, 95, 109, 0.3);
+
+}
+
+
+input[type="text"]{
+    border: 20px;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 10px;
+    width: 100%; 
+    height: 40px;
+    font-size: 20px;
+    
+}
+input[type="number"]{
+    border: 20px;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 10px;
+    width: 100%; 
+    height: 40px;
+    font-size: 20px;
+    
+}
+
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+textarea{
+    background: rgba(161, 161, 161, 0.7);
+    position:relative;
+    top: 75%;
+    left: 40%;
+    
+    
+    
+
+}
+#loader {
+    border: 8px solid rgba(255, 255, 255, 0.3);
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px; 
+    animation: spin 1s linear infinite;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    z-index: 1000; }
+  
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

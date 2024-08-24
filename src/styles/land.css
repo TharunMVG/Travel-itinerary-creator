@@ -1,0 +1,61 @@
+
+
+  #landbg
+  {
+    background-image: url("../assets/thomas.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .button-container {
+    position: absolute;
+    display:flex;
+    justify-content: left;
+    left:6%;
+    top:450px;
+  }
+  
+  
+  .button-container button {
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    background:#feefed;
+    color:#f75940;
+    font-family: Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size: 1em;
+    border: 1px solid rgb(202, 158, 116);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .button-container button:hover {
+    background-color:#f75940;
+    color: #830f0f;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(255, 95, 109, 0.3);
+  }
+  
+  #word{
+    color: rgb(33, 35, 70);
+    font-family:  Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  }
+  
+  #appple{
+    font-weight: 400;
+    color: black;
+    font-family:Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  }
+
+  .travel
+  {
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    font-size: larger;
+  }
+  

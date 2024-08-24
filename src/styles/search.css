@@ -1,0 +1,89 @@
+
+#searchbg
+  {
+    background-image: url("../assets/unnamed.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+  }
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+ 
+  
+  #search-form{
+    position:absolute;
+    text-align: center;
+    box-sizing: border-box;
+    display:flex;
+    top:1%;
+    min-height: fit-content;
+    
+  }
+  
+  input, button, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  textarea {
+    height: 100px;
+    position:absolute;
+    left:120px;
+    width:80%;
+    top:300px;
+    
+    
+  }
+
+ #search-form{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgba(0,0,0,.5);
+ }
+  
+ .loader {
+  position:absolute;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+ top:70%;
+ right:50%;
+ z-index:1;
+ 
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+  
