@@ -1,1 +1,1 @@
-Personalized travel itinerary creator using chagpt api key
+AI powered travel itinerary creator
